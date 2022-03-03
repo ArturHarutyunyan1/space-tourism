@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="destination">
+    <nav class="navbar">
+        <a href="index.html">
+            <img src="img/shared/logo.svg" alt="Logo">
+        </a>
+        <div class="line"></div>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link"><span class="numbering">00</span> <span class="link">home</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="destination.html" class="nav-link active"><span class="numbering">01</span> <span class="link">destination</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="crew.html" class="nav-link"><span class="numbering">02</span> <span class="link">crew</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="technology.html" class="nav-link"><span class="numbering">03</span> <span class="link">technology</span></a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="row-item">
+                    <div class="planet">
+                        <img src="img/destination/image-moon.png" class="planet-image">
+                    </div>
+                </div>
+                <div class="row-item">
+                    <div class="details">
+                        <ul class="tabs">
+                            <li class="button active-button" data-tab-target="#moon">MOON</li>
+                            <li class="button" data-tab-target="#mars">MARS</li>
+                            <li class="button" data-tab-target="#europa">EUROPA</li>
+                            <li class="button" data-tab-target="#titan">TITAN</li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="moon" class="visible" data-tab-content>
+                                <h1>MOON</h1>
+                                <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                                <div class="d-line"></div>
+                                <div class="sm-row">
+                                    <div class="item">
+                                        <h4>AVG. DISTANCE</h4>
+                                        <h2>384,400 KM</h2>
+                                    </div>
+                                    <div class="item">
+                                        <h4>Est. travel time</h4>
+                                        <h2>3 DAYS</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="mars" data-tab-content>
+                                <h1>MARS</h1>
+                                <p>Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!</p>
+                                <div class="d-line"></div>
+                                <div class="sm-row">
+                                    <div class="item">
+                                        <h4>AVG. DISTANCE</h4>
+                                        <h2>225 MIL. KM</h2>
+                                    </div>
+                                    <div class="item">
+                                        <h4>Est. travel time</h4>
+                                        <h2>9 MONTHS</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="europa" data-tab-content>
+                                <h1>EUROPA</h1>
+                                <p>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
+                                <div class="d-line"></div>
+                                <div class="sm-row">
+                                    <div class="item">
+                                        <h4>AVG. DISTANCE</h4>
+                                        <h2>628 MIL. KM</h2>
+                                    </div>
+                                    <div class="item">
+                                        <h4>Est. travel time</h4>
+                                        <h2>3 YEARS</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="titan" data-tab-content>
+                                <h1>TITAN</h1>
+                                <p>The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
+                                <div class="d-line"></div>
+                                <div class="sm-row">
+                                    <div class="item">
+                                        <h4>AVG. DISTANCE</h4>
+                                        <h2>1.6 BIL. KM</h2>
+                                    </div>
+                                    <div class="item">
+                                        <h4>Est. travel time</h4>
+                                        <h2>7 YEARS</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
